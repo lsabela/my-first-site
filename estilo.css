@@ -2,20 +2,85 @@ html,
 body {
   margin: 0;
 }
+body {
+  color: #212121;
+  line-height: 1.5;
+  font-family: 'Fira Sans', sans-serif;
+}
 #bg-img {
-  background-image: url('fundo.jpg');
-  background-position: 100% 100%;
-  height: 100vh;
+  background-image: url('fundo4.jpg');
+  height: 100%;
   text-align: center;
+  background-size: cover;
+  color: #fff;
 }
 #title {
-  color: white;
-  padding-top: 30%;
+  padding-top: 7cm;
 }
 #subtitle {
-  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: solid white;
+  padding: 10px;
 }
-#more-about {
-  color: white;
+#bg-img a {
+  color: #fff;
+  border: solid 2px #fff;
+  padding: 5px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: ease-in-out 200ms;
 }
-
+#bg-img a:hover {
+  background-color: #fff;
+  color: #000;
+}
+#project {
+  background-color: #f7f7f7;
+  float: left;
+  padding: 2% 0;
+}
+.column {
+  float: left;
+  padding: 0 5%;
+  position: relative;
+  width: 40%;
+}
+#options {
+  padding: 20px;
+  float: left;
+  background-color: white;
+}
+#options h4 {
+  border: solid black 2px;
+  border-radius: 50px;
+  padding: 5px 20px;
+  display: table;
+  margin: 15px auto 0 auto;
+}
+.icon {
+  width: 80px;
+}
+#about {
+  background-color: #f7f7f7;
+  float: right;
+  padding: 2% 0;
+}
+.justificado {
+  text-align: justify;
+}
+.centralizado {
+  text-align: center;
+}
+.columntres {
+  text-align: center;
+  padding: 3% 30%;
+}
+.aboutme {
+  float: right;
+  padding: 0 5%;
+  position: relative;
+  width: 40%;
+}
