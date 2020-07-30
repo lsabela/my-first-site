@@ -15,6 +15,14 @@ header {
   width: 100%;
   z-index: 10;
 }
+header a {
+  text-decoration: none;
+  color: #212121;
+  transition: 150ms;
+}
+header a:hover {
+  color: #6d6a6a;
+}
 #logo {
   width: 60px;
   position: absolute;
@@ -24,6 +32,7 @@ header {
 #menu {
   float: right;
   margin-right: 5%;
+  text-decoration-style: none;
 }
 #menu li {
   padding: 10 20 10 20;
@@ -32,9 +41,6 @@ header {
   height: 20px;
   float: left;
 }
-/* #menu li:hover {
-  color: #6d6a6a;
-} */
 #bg-img {
   background-image: url('fundo4.jpg');
   height: 100%;
