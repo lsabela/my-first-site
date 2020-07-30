@@ -31,11 +31,10 @@ header {
   margin: 10px;
   height: 20px;
   float: left;
-  transition: ease-in-out 350ms;
 }
-#menu li:hover {
+/* #menu li:hover {
   color: #6d6a6a;
-}
+} */
 #bg-img {
   background-image: url('fundo4.jpg');
   height: 100%;
@@ -61,9 +60,11 @@ header {
   text-decoration: none;
   border-radius: 50px;
   transition: linear 150ms;
+  transition-property: background-color, transform;
   transform: scale(1);
 }
 #bg-img a:hover {
+  transition-property: background-color, transform, color;
   transform: scale(1.125);
   background-color: #fff;
   color: #6d6a6a;
@@ -149,6 +150,6 @@ header {
   transition: linear 150ms;
 }
 .footer a:hover {
-  color: #dbc1e6;
+  color: #xdbc1e6;
   box-shadow: inset 0 -31px 0 0px #212121;
 }
