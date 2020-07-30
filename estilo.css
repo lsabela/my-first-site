@@ -7,6 +7,35 @@ body {
   line-height: 1.5;
   font-family: 'Fira Sans', sans-serif;
 }
+header {
+  background-color: #f2f2f2;
+  color: #212121;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+#logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  margin-left: 5%;
+}
+#menu {
+  float: right;
+  margin-right: 5%;
+}
+#menu li {
+  padding: 10 20 10 20;
+  list-style: none;
+  margin: 10px;
+  height: 20px;
+  float: left;
+  transition: ease-in-out 350ms;
+}
+#menu li:hover {
+  color: #6d6a6a;
+}
 #bg-img {
   background-image: url('fundo4.jpg');
   height: 100%;
@@ -31,16 +60,18 @@ body {
   display: inline-block;
   text-decoration: none;
   border-radius: 50px;
-  transition: ease-in-out 200ms;
+  transition: linear 150ms;
+  transform: scale(1);
 }
 #bg-img a:hover {
+  transform: scale(1.125);
   background-color: #fff;
-  color: #000;
+  color: #6d6a6a;
 }
 #project {
   background-color: #f7f7f7;
   float: left;
-  padding: 2% 0;
+  padding: 3% 0;
 }
 .column {
   float: left;
@@ -48,20 +79,33 @@ body {
   position: relative;
   width: 40%;
 }
+.um {
+  margin-top: 8%;
+}
 #options {
   padding: 20px;
   float: left;
   background-color: white;
 }
-#options h4 {
-  border: solid black 2px;
+.columntres a {
+  border: solid #000 2px;
   border-radius: 50px;
-  padding: 5px 20px;
+  padding: 7px 20px;
   display: table;
   margin: 15px auto 0 auto;
+  text-decoration: none;
+  color: #212121;
+  transform: scale(0.9);
+  transition: linear 100ms;
+}
+.columntres a:hover {
+  transform: scale(1.025);
+  background-color: #000;
+  color: #fff;
 }
 .icon {
   width: 80px;
+  padding-bottom: 5px;
 }
 #about {
   background-color: #f7f7f7;
@@ -73,6 +117,7 @@ body {
 }
 .centralizado {
   text-align: center;
+  padding-top: 2%;
 }
 .columntres {
   text-align: center;
@@ -83,4 +128,16 @@ body {
   padding: 0 5%;
   position: relative;
   width: 40%;
+}
+.aboutme img {
+  width: 100%;
+}
+.footer {
+  background-color: #dbc1e6;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer-section {
+  width: 43%;
 }
