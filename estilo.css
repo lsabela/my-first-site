@@ -137,7 +137,18 @@ header {
   padding: 2rem 1rem;
   display: flex;
   justify-content: space-around;
+  color: #212121;
 }
 .footer .footer-section {
   width: 43%;
+}
+.footer a {
+  text-decoration: none;
+  color: #212121;
+  border-bottom: solid 1px #212121;
+  transition: linear 150ms;
+}
+.footer a:hover {
+  color: #dbc1e6;
+  box-shadow: inset 0 -31px 0 0px #212121;
 }
