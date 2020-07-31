@@ -159,3 +159,25 @@ header a:hover {
   color: #dbc1e6;
   box-shadow: inset 0 -31px 0 0px #212121;
 }
+@media all and (max-width: 780px) {
+  #menu {
+    visibility: hidden;
+  }
+  .column,
+  .columntres {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px;
+    float: none;
+  }
+  #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  #logo {
+    margin-left: 0;
+    transform: translateX(-35%);
+  }
+}
