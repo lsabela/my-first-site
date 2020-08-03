@@ -1,0 +1,97 @@
+:root {
+  --header-height: 90px;
+  --header-bottom-space: 0px;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  color: #212121;
+  line-height: 1.5;
+  font-family: 'Fira Sans', sans-serif;
+  padding-top: calc(var(--header-height) + var(--header-bottom-space));
+}
+header {
+  background-color: #f2f2f2;
+  color: #212121;
+  height: --var(header-height);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+header a {
+  text-decoration: none;
+  color: #212121;
+  transition: 150ms;
+}
+header a:hover {
+  color: #6d6a6a;
+}
+#logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  margin-left: 5%;
+}
+#menu {
+  float: right;
+  margin-right: 5%;
+  text-decoration-style: none;
+}
+#menu li {
+  padding: 10 20 10 20;
+  list-style: none;
+  margin: 10px;
+  height: 20px;
+  float: left;
+}
+.footer {
+  background-color: #dbc1e6;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  color: #212121;
+}
+.footer .footer-section {
+  width: 43%;
+}
+.footer a {
+  text-decoration: none;
+  color: #212121;
+  border-bottom: solid 1px #212121;
+  transition: linear 150ms;
+}
+.footer a:hover {
+  color: #dbc1e6;
+  box-shadow: inset 0 -31px 0 0px #212121;
+}
+@media all and (max-width: 780px) {
+  #menu {
+    visibility: hidden;
+  }
+  .column,
+  .columntres {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px;
+    float: none;
+  }
+  #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  #logo {
+    margin-left: 0;
+    transform: translateX(-35%);
+  }
+  #footer-section {
+    display: block;
+  }
+  .aboutme {
+    display: block;
+  }
+}

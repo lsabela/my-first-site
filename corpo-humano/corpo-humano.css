@@ -1,0 +1,154 @@
+#first-section {
+  background-color: #f7f7f7;
+  padding-bottom: 3%;
+}
+#title {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+#organization-levels {
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.level {
+  width: 10%;
+  margin: 0 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 4px 1px #0000001a;
+  --color: #212121;
+  color: var(--color);
+}
+.level a {
+  text-decoration: none;
+  color: var(--color);
+}
+.atoms {
+  background-color: #f19066;
+}
+.molecules {
+  background-color: #f5cd79;
+}
+.cells {
+  background-color: #546de5;
+}
+.tissues {
+  background-color: #e15f41;
+}
+.organs {
+  background-color: #c44569;
+}
+.systems {
+  background-color: #786fa6;
+}
+.organisms {
+  background-color: #f8a5c2;
+}
+.populations {
+  background-color: #9980fa;
+}
+.comunitys {
+  background-color: #63cdda;
+}
+.ecosystems {
+  background-color: #ea8685;
+}
+.biosphere {
+  background-color:  #596275;
+}
+.h2 {
+  text-align: center;
+  padding: 2% 0;
+}
+#cells {
+  padding-left:  5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+#cells::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#cell-imgs {
+  width: 40%;
+  float: right;
+}
+.cell-img {
+  margin: 1%;
+  padding: 0 5%;
+  width: 100%;
+}
+#tissues {
+  padding: 2 5%;
+  background-color: #f7f7f7;
+  padding-bottom: 5%;
+}
+.tissues-img {
+  padding: 2% 8%;
+  width: 30%;
+}
+#systems {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  float: right;
+}
+.systems-img {
+  float: right;
+}
+.justificado {
+  text-align: justify;
+}
+.footer {
+  background-color: #dbc1e6;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  color: #212121;
+}
+.footer .footer-section {
+  width: 43%;
+}
+.footer a {
+  text-decoration: none;
+  color: #212121;
+  border-bottom: solid 1px #212121;
+  transition: linear 150ms;
+}
+.footer a:hover {
+  color: #dbc1e6;
+  box-shadow: inset 0 -31px 0 0px #212121;
+}
+@media all and (max-width: 780px) {
+  #menu {
+    visibility: hidden;
+  }
+  .column,
+  .columntres {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px;
+    float: none;
+  }
+  #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  #logo {
+    margin-left: 0;
+    transform: translateX(-35%);
+  }
+  #footer-section {
+    display: block;
+  }
+  .aboutme {
+    display: block;
+  }

@@ -1,42 +1,5 @@
-html,
-body {
-  margin: 0;
-}
-body {
-  color: #212121;
-  line-height: 1.5;
-  font-family: 'Fira Sans', sans-serif;
-}
-header {
-  background-color: #f2f2f2;
-  color: #212121;
-  height: 90px;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-}
-#logo {
-  width: 60px;
-  position: absolute;
-  top: 10px;
-  margin-left: 5%;
-}
-#menu {
-  float: right;
-  margin-right: 5%;
-}
-#menu li {
-  padding: 10 20 10 20;
-  list-style: none;
-  margin: 10px;
-  height: 20px;
-  float: left;
-}
-/* #menu li:hover {
-  color: #6d6a6a;
-} */
 #bg-img {
-  background-image: url('fundo4.jpg');
+  background-image: url('./fundo4.jpg');
   height: 100%;
   text-align: center;
   background-size: cover;
@@ -132,24 +95,4 @@ header {
 }
 .aboutme img {
   width: 100%;
-}
-.footer {
-  background-color: #dbc1e6;
-  padding: 2rem 1rem;
-  display: flex;
-  justify-content: space-around;
-  color: #212121;
-}
-.footer .footer-section {
-  width: 43%;
-}
-.footer a {
-  text-decoration: none;
-  color: #212121;
-  border-bottom: solid 1px #212121;
-  transition: linear 150ms;
-}
-.footer a:hover {
-  color: #xdbc1e6;
-  box-shadow: inset 0 -31px 0 0px #212121;
 }

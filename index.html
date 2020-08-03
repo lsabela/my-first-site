@@ -5,18 +5,21 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,900;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./index-assets/index.css" />
     <meta charset="utf-8" />
   </head>
   <body>
     <header>
       <div>
-        <img src="logo.png" alt="Estetoscópio" id="logo" />
+        <a href="/">
+          <img src="./logo.png" alt="Estetoscópio" id="logo" />
+        </a>
       </div>
       <ul id="menu">
-        <li>Projeto</li>
-        <li>Conteúdo</li>
-        <li>Sobre</li>
+        <li><a href="#project">Projeto</a></li>
+        <li><a href="#options">Conteúdo</a></li>
+        <li><a href="#about">Sobre</a></li>
       </ul>
     </header>
     <div id="bg-img">
@@ -76,8 +79,12 @@
     <section id="options" class="columntres">
       <h3 class="centralizado">Conteúdo</h3>
       <div class="columntres">
-        <img class="icon" src="corpohumano.png" alt="Corpo Humano" />
-        <a href="#">
+        <img
+          class="icon"
+          src="./index-assets/corpohumano.png"
+          alt="Corpo Humano"
+        />
+        <a href="./corpo-humano">
           Corpo Humano
         </a>
         <p>
@@ -88,7 +95,7 @@
         </p>
       </div>
       <div class="columntres">
-        <img class="icon" src="comida.png" alt="Alimentação" />
+        <img class="icon" src="./index-assets/comida.png" alt="Alimentação" />
         <a href="#">Alimentação</a>
         <p>
           Tudo o que colocamos para dentro de nossos corpos fará parte de nós.
@@ -98,7 +105,7 @@
         </p>
       </div>
       <div class="columntres">
-        <img class="icon" src="doenças.png" alt="Doenças" />
+        <img class="icon" src="./index-assets/doenças.png" alt="Doenças" />
         <a href="#">Doenças</a>
         <p>
           Atualmente, a medicina está cada vez avançando mais, o que permitiu
@@ -108,7 +115,7 @@
         </p>
       </div>
       <div class="columntres">
-        <img class="icon" src="exercício.png" alt="Exercícios" />
+        <img class="icon" src="./index-assets/exercício.png" alt="Exercícios" />
         <a href="#">Prática de Exercícios</a>
         <p>
           O corpo humano foi criado para o movimento, por isso, é necessário
@@ -120,7 +127,7 @@
     </section>
     <section id="about">
       <div class="aboutme">
-        <img src="ursinho.jpg" alt="Ursinho enfaixado" />
+        <img src="./index-assets/ursinho.jpg" alt="Ursinho enfaixado" />
       </div>
       <div class="aboutme">
         <h3 class="centralizado">Sobre Mim</h3>
@@ -152,7 +159,9 @@
       </section>
       <section class="footer-section">
         <h3>Créditos</h3>
-        <p>Ícones de Flaticon, fotos de Pexels e Unsplash.</p>
+        <p>
+          Ícones de Flaticon, fotos de Pexels, de Unsplash e de Depositphotos.
+        </p>
       </section>
     </footer>
   </body>
