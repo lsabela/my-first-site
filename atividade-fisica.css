@@ -1,0 +1,29 @@
+#title {
+  text-align: center;
+  padding: 0 20%;
+  padding-top: 2%;
+}
+#title h3 {
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+#benefits {
+  padding: 0 5%;
+}
+#benefits h4 {
+  text-align: center;
+  border-top: 1px solid #eeeeee;
+  padding-top: 40px;
+}
+#box-1 {
+  padding: 0 5%;
+  width: 30%;
+}
+#box-1 h4 {
+  text-align: center;
+  border-top: 1px solid #eeeeee;
+  padding-top: 40px;
+}
+.final-paragraph {
+  padding-bottom: 5%;
+}
