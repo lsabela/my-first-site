@@ -1,0 +1,103 @@
+#bg-img {
+  background-image: url('./fundo4.jpg');
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+}
+#title {
+  padding-top: 7cm;
+}
+#subtitle {
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: solid white;
+  padding: 10px;
+}
+#bg-img a {
+  color: #fff;
+  border: solid 2px #fff;
+  padding: 5px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: linear 150ms;
+  transition-property: background-color, transform;
+  transform: scale(1);
+}
+#bg-img a:hover {
+  transition-property: background-color, transform, color;
+  transform: scale(1.125);
+  background-color: #fff;
+  color: #6d6a6a;
+}
+#project {
+  background-color: #f7f7f7;
+  float: left;
+  padding: 3% 0;
+}
+.column {
+  float: left;
+  padding: 0 5%;
+  position: relative;
+  width: 40%;
+}
+.um {
+  margin-top: 8%;
+}
+#options {
+  padding: 20px;
+  float: left;
+  background-color: white;
+}
+.columntres a {
+  border: solid #000 2px;
+  border-radius: 50px;
+  padding: 7px 20px;
+  display: table;
+  margin: 15px auto 0 auto;
+  text-decoration: none;
+  color: #212121;
+  transform: scale(0.9);
+  transition: linear 100ms;
+}
+.columntres a:hover {
+  transform: scale(1.025);
+  background-color: #000;
+  color: #fff;
+}
+.icon {
+  width: 80px;
+  padding-bottom: 5px;
+}
+#about {
+  background-color: #f7f7f7;
+  float: right;
+  padding: 2% 0;
+}
+.justificado {
+  text-align: justify;
+}
+.centralizado {
+  text-align: center;
+  padding-top: 2%;
+}
+.columntres {
+  text-align: center;
+  padding: 3% 30%;
+}
+.aboutme {
+  float: right;
+  padding: 0 5%;
+  position: relative;
+  width: 40%;
+}
+.aboutme img {
+  width: 100%;
+}
+@media screen and (max-widht: 800px) {
+  #project {
+    padding: none;
+  }
+}
