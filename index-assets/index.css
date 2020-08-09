@@ -96,3 +96,8 @@
 .aboutme img {
   width: 100%;
 }
+@media screen and (max-widht: 800px) {
+  #project {
+    padding: none;
+  }
+}

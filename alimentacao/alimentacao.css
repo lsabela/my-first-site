@@ -1,0 +1,94 @@
+body {
+  margin-top: 3%;
+}
+.center {
+  text-align: center;
+}
+#alimentation {
+  color: white;
+  background-color: #3dc1d3;
+  padding: 1% 5%;
+}
+#carb {
+  padding: 3% 5%;
+  margin: 3% 0;
+  background-color: #f7f7f7;
+  text-align: justify;
+}
+#carb h2 {
+  padding-bottom: 2%;
+}
+#carb img {
+  width: 400px;
+  float: right;
+  padding: 0 0 3% 3%;
+}
+#protein {
+  padding: 3% 5%;
+  margin: 3% 0;
+  text-align: justify;
+}
+#protein h2 {
+  padding-bottom: 2%;
+}
+#protein img {
+  padding: 5.5%;
+  width: 500px;
+}
+#fat {
+  padding: 3% 5%;
+  margin: 3% 0;
+  background-color: #f7f7f7;
+  text-align: justify;
+}
+#fat h2 {
+  padding-bottom: 2%;
+}
+#fat img {
+  float: left;
+  margin: 0 3% 3% 0;
+}
+#vitamin {
+  padding: 3% 5%;
+  margin: 3% 0;
+  text-align: justify;
+}
+#vitamin h2 {
+  padding-bottom: 2%;
+}
+#mineral {
+  padding: 3% 5%;
+  margin: 3% 0;
+  background-color: #f7f7f7;
+  text-align: justify;
+}
+#mineral h2 {
+  padding-bottom: 2%;
+}
+#nutrition-label {
+  padding: 3% 5%;
+  margin: 3% 0;
+  text-align: justify;
+}
+#nutrition-label h2 {
+  padding-bottom: 2%;
+}
+#nutrition-label img {
+  float: right;
+}
+#final {
+  padding: 3% 5%;
+  margin: 3% 0 0 0;
+  background-color: #f7f7f7;
+  text-align: justify;
+  float: right;
+}
+#final img {
+  width: 30%;
+  float: left;
+  padding-left: 8%;
+}
+#final p {
+  width: 50%;
+  float: right;
+}

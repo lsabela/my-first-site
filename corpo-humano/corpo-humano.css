@@ -4,7 +4,7 @@
 }
 #title {
   text-align: center;
-  padding-top: 8%;
+  padding-top: 3%;
   padding-bottom: 2%;
 }
 #organization-levels {
@@ -18,15 +18,20 @@
   margin: 0 20px;
   margin-bottom: 20px;
   text-align: center;
+  text-decoration: none;
   padding: 10px;
   border-radius: 50px;
   box-shadow: 0px 5px 4px 1px #0000001a;
   --color: #212121;
   color: var(--color);
+  transform: scale(1);
+  transition: all linear 120ms;
 }
-.level a {
-  text-decoration: none;
-  color: var(--color);
+.level:hover {
+  transform: scale(1.125);
+}
+.level:not(a):hover {
+  transform: scale(1);
 }
 .atoms {
   background-color: #f19066;
@@ -66,8 +71,8 @@
   padding: 2% 0;
 }
 #cells {
-  padding-left:  5%;
-  padding-right: 5%;
+  padding-left:  12%;
+  padding-right: 12%;
   padding-bottom: 5%;
 }
 #cells::after {
@@ -75,14 +80,17 @@
   display: block;
   clear: both;
 }
+#cells p {
+width: 50%;
+}
 #cell-imgs {
   width: 40%;
   float: right;
 }
 .cell-img {
-  margin: 1%;
   padding: 0 5%;
   width: 100%;
+  max-width: 350px;
 }
 #tissues {
   padding: 2 5%;
