@@ -1,0 +1,24 @@
+body {
+  margin-top: 3%;
+}
+.center {
+  text-align: center;
+}
+.space {
+  margin-top: 5%;
+}
+#titlesubtitle {
+  max-width: 800px;
+  text-align: center;
+  padding: 0 23%;
+}
+#diseases {
+  padding: 0 7%;
+}
+.info {
+  border-top: 1px solid #eeeeee;
+  padding-top: 20px;
+}
+.previous-footer {
+  margin-bottom: 5%;
+}
