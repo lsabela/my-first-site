@@ -79,6 +79,13 @@ header a:hover {
     margin: 10px;
     float: none;
   }
+  header div {
+    text-align: center;
+  }
+  header div img {
+    display: inline-block;
+    margin-top: 27px;
+  }
   #logodiv {
     width: 100%;
     position: relative;
